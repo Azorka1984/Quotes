@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
 }
 #new-quote {
-
+  text-decoration: none;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -31,6 +31,14 @@ body {
   cursor: pointer;
 
 }
+@media (max-width: 1000px) {
+   #new-quote {
+	margin-left: 55%;
+	width: 35%;
+	padding: 15px 20px;
+}
+
+  }
 #quote-box{
 	justify-content: center;
 	position: absolute;
