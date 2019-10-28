@@ -58,7 +58,7 @@ body {
 #button-wrapper{
 	display: flex;
 	font-size:25%;
-	width: 150px;
+	width: 60vw;
 }
 #new-quote {
 
