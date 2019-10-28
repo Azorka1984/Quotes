@@ -8,6 +8,7 @@ body {
 	
 }
 #quote-box-wrapper{
+
 	display:flex;
 	justify-content: center;
 	transition:2s;
@@ -31,25 +32,57 @@ body {
   cursor: pointer;
 
 }
-@media (max-width: 1000px) {
-   #new-quote {
-	margin-left: 55%;
-	width: 35%;
-	padding: 15px 20px;
-}
-
-  }
 #quote-box{
+
 	justify-content: center;
 	position: absolute;
-	 top: 25%;
+	top: 25%;
 	border-radius: 2px;
     transition: 1s;
 	padding: 30px;
 	background-color:white;
 	min-width: 50vw;
+
+}
+@media (max-width: 1000px) {
+#quote-box{
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+    width: 20vw;	
+	font-size:25%;
+	border-radius: 1px;
+  	
 	
 }
 #button-wrapper{
 	display: flex;
+	font-size:25%;
+	width: 150px;
+}
+#new-quote {
+
+  padding: 5px 0px;
+  transition: 1s;
+  font-size: 4px;
+  width: 20%;
+  margin-left: 70%;
+  border-radius: 2px;
+  cursor: pointer;
+  border-radius: 0.3px;
+  outline:none;
+
+}
+a{
+	font-size: 4px;
+}
+  
+}
+
+#button-wrapper{
+	display: flex;
+}
+#root{
+	max-width: 200px;
+	max-height: 200px;
 }
